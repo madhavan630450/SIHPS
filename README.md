@@ -1,65 +1,39 @@
 # Smart India Hackathon Workshop
-# Date: 18:05:2024
-## Register Number:212223110033
-## Name:OVIYA P
-
-## Problem Title 
-
-
-E-Waste Facility Locator
+# Date:26/111/2025
+## Register Number:212224230153
+## Name: MARIMUTHU MATHAVAN
+## Problem Title
+Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
-Website that tells you the location of the nearest e-waste collection and recycling facility. Offers educational pop-ups on the harmful components of your e-waste and their effects on the environment and human health if not disposed correctly. There could be an option to input the model of your old device and earn credit points relative to the amount of precious metals recovered from the device if disposed correctly.
+Background: Alumni associations play a pivotal role in fostering lifelong connections between graduates and their alma mater, facilitating networking, mentorship, and philanthropic support. However, many alumni associations face challenges in maintaining engagement, facilitating donations, and providing valuable services such as job networking and tracking alumni success stories. A comprehensive Alumni Association platform for a University/Institute, encompassing both web and mobile applications, aims to address these challenges effectively. Detailed Description: The proposed Alumni Association platform for the Government Engineering College will feature robust functionalities accessible through both web and mobile applications: Alumni Registration: User-friendly registration processes on both web and mobile platforms, allowing alumni to join the association, update their profiles, and stay connected with peers and the institution. Donation Portal: Secure mechanisms on both platforms for alumni to contribute donations easily and support various initiatives and projects undertaken by the college, fostering a culture of philanthropy. Networking Hub: Dedicated sections on both platforms to connect alumni based on shared interests, professions, and geographic locations, facilitating professional networking, mentorship, and collaboration opportunities. Job Portal: Integrated job search and posting features accessible via web and mobile apps, enabling alumni to explore career opportunities, post job openings, and connect with potential employers within the alumni network. Alumni Directory: Search functionalities available on both platforms to find alumni based on different criteria such as graduation year, field of study, industry, location, etc., promoting networking and community building. Success Story Tracking: Features on both web and mobile apps to showcase and track alumni achievements, success stories, and notable contributions to society, inspiring current students and fostering pride among alumni. Events and Reunions: Announcements, registrations, and management tools available on both platforms for organizing alumni events, reunions, workshops, and professional development sessions to maintain engagement and connection. Feedback and Surveys: Channels on both web and mobile apps for alumni to provide feedback on their experiences, suggest improvements, and participate in surveys to help shape future initiatives of the association. The platform will prioritize user experience, security, and scalability across both web and mobile applications to cater to the diverse needs of the Government Engineering College's alumni community. Expected Solution: Implementation of the Alumni Association platform for the Government Engineering College, comprising both web and mobile applications, is expected to achieve several positive outcomes: Enhanced Alumni Engagement: Seamless access to networking, career opportunities, and alumni events through web and mobile apps will strengthen connections among alumni, fostering a vibrant and active community. Increased Philanthropic Support: Convenient donation processes accessible via both platforms will encourage alumni to contribute towards the college's growth and development initiatives. Career Advancement: Access to job postings, mentorship opportunities, and professional networking on mobile devices will support alumni in their career growth and advancement. Knowledge Sharing: Exchange of knowledge, experiences, and best practices facilitated through both web and mobile apps will enrich professional development and lifelong learning initiatives. Pride and Recognition: Highlighting alumni achievements and success stories on both platforms will instill pride in the alma mater and inspire current students to excel in their academic and professional pursuits. Community Building: Interactive features available on both web and mobile apps will nurture a sense of belonging and camaraderie among alumni, strengthening their bond with the institution. In summary, the Alumni Association platform for the University/Institute, integrated with both web and mobile applications, aims to create a dynamic and supportive ecosystem where alumni can connect, contribute, and thrive, thereby enriching the overall educational experience and legacy of the institution.
 ## Problem Creater's Organization
-Ministry of Environment
+Government of Gujarat
 
 ## Idea
-1.Nearest E-Waste Facility Locator:
-Use Geocoding AI to find nearby e-waste facilities based on the user's current location.
-Implement image recognition to categorize e-waste when users upload photos, suggesting the appropriate recycling facility.
-
-2.Virtual Assistant:
-Offer a virtual assistant that provides guidance on proper e-waste disposal methods and data wiping techniques for devices with sensitive information.
-
-3.Educational Pop-ups:
-Display educational pop-ups to raise awareness about the harmful effects of e-waste on the environment and human health.
-
-4.Reward Points System:
-Introduce a reward points system where users earn points for each e-waste disposal, encouraging participation in recycling programs.
-
-5.Real-time Analytics Dashboard:
-Provide e-waste facilities with a dashboard showcasing real-time analytics and insights, including recycling rates and energy savings, to help users understand their impact on the environment.
-
-
-
-
-
-
-
+1. Alumni Directory: A searchable database where alumni can update profiles andconnect.
+2. Networking & Mentorship: Allows students to connect with alumni for careerguidance.
+3. Event Management: Organizes alumni events like reunions, webinars, and meetups.
+4. Job Opportunities: A job board for alumni and students to share careeropportunities.
+5. News & Updates: Shares institutional news and alumni achievements.
+6. Donation & Fundraising: Enables alumni to contribute to university projects andscholarships.
+7. Discussion Forums: Alumni can engage in interest-based discussions and groups.
+8. Mobile Access: A mobile app or responsive site for on-the-go access.
 
 ## Proposed Solution / Architecture Diagram
-![alt text](image-1.png)
 
+![diagram 1](https://github.com/user-attachments/assets/2bffe9ab-ea76-4f23-be92-497c78a201b1)
 ## Use Cases
-![alt text](10-2.jpg)
 
+![sih new ss](https://github.com/user-attachments/assets/c5d6f509-a1b1-41fe-a71f-314867c06c57)
 ## Technology Stack
-React.js
-
-Node.js 
-
-PostgreSQL
-
-Google maps
-
-Firebox Authenticator
-
-Git , Postman or Insomnia
-
+1. React/Angular (frontend)
+2. Node.js/Python (backend)
+3. PostgreSQL/MongoDB (database)
+4. Firebase (notifications).
 ## Dependencies
-
-Mapping service- 10 days
-
-Data collection- 10 days
-
-budget- rs.50,000
-
+1. Frontend: React/Angular, Axios for API calls, Material-UI for styling, Firebase forauthentication, and Chart.js for data visualization.
+2. Backend: Node.js/Express or Django, MongoDB/PostgreSQL for data storage,JWT/OAuth for authentication, and Socket.io for real-time features.
+3. DevOps: Docker for containerization, AWS/Google Cloud for hosting, and CI/CDtools for deployment.
+4. Testing: Jest, Supertest, and Cypress for testing.
+5. Security: Helmet.js, CORS middleware, and rate limiting for protection.
+6. Analytics/Notifications: Google Analytics, Sentry for monitoring, andTwilio/SendGrid for notifications.
